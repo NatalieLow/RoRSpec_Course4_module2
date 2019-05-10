@@ -2,27 +2,6 @@ body {
 	position: relative;
 }
 
-/*@media screen and (max-width: 992) {*/
-	#ChickenSection {
-		float: left;
-		margin-right: 3%;
-		margin-left: 1%;
-		width: 30%
-	}
-	#BeefSection {
-		float: left;
-		/*margin-right: 0%;
-		margin-left: 0%;*/
-		width: 30%
-	}
-	#SushiSection {
-		float: right;
-		margin-right: 1%;
-		/*margin-left: 0%;*/
-		width: 30%;
-	}
-/*}*/
-
 p {
 	padding-top: 30px;
 }
@@ -43,8 +22,7 @@ p {
 	margin-top: 25px;
 	background: grey;
 	position: relative;
-	border-style: solid;
-	border-color: black;
+	border: 1px solid black;
 }
 
 h1 {
@@ -58,9 +36,28 @@ h2{
 	right: 0px;
 	top: 0px;
 	width: 33%;
-	border-left: solid;
-	border-bottom: solid;
-	border-color: black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	
+}
+
+#ChickenSection {
+	float: left;
+	margin-right: 3%;
+	margin-left: 1%;
+	width: 30%
+}
+#BeefSection {
+	float: left;
+	margin-right: 0%;
+	margin-left: 0%;
+	width: 30%
+}
+#SushiSection {
+	float: right;
+	margin-right: 1%;
+	margin-left: 0%;
+	width: 30%;
 }
 
 @media (max-width: 991px) {
@@ -76,7 +73,7 @@ h2{
 	}
 	#SushiSection {
 		float: right;
-		width: 92%;
+		width: 93%;
 		margin-right: 3.5%;
 		margin-left: 3.5%;
 		
@@ -89,13 +86,7 @@ h2{
 		float: none;
 		margin-right: 3.5%;
 		margin-left: 3.5%;
-		width: 92%
+		width: 93%
 	}
 
-	/*
-	.MenuSection {
-		float: none;
-		margin-right: 3.5%;
-		margin-left: 3.5%;
-	}*/
 }
